@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/acbID"
+        android:text="@string/to_do"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"
+        android:textStyle="bold|italic"
+        android:layout_margin="15dp"
+        android:layout_marginLeft="20dp">
+
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="56dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/edbtn_icon"
+        android:layout_centerVertical="true"
+
+        android:src="@drawable/edit">
+
+    </ImageView>
+
+
+</RelativeLayout>

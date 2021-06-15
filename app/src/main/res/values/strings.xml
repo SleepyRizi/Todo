@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">toDolist</string>
+    <string name="add_new_todo">Add new todo</string>
+    <string name="to_do">To do</string>
+    <string name="add_some_task_of_your_ease">Add some task of your ease</string>
+
+    <string name="add_item">Add Item</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="mobile">Mobile</string>
+</resources>

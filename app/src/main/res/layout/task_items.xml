@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/task_item"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="259dp"
+        android:layout_height="85dp"
+        android:layout_marginHorizontal="16dp"
+        android:layout_marginVertical="8dp"
+        android:layout_marginTop="12dp"
+        app:cardCornerRadius="7dp"
+        app:cardElevation="7dp">
+
+        <RelativeLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvTaskname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginBottom="2dp"
+                android:hint="Shopping"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTask1id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="3dp"
+                android:layout_marginTop="42dp"
+
+                android:layout_marginBottom="2dp"
+                android:hint="Mobile"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tvTask2id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="11mm"
+                android:layout_marginTop="42dp"
+
+                android:layout_marginBottom="2dp"
+                android:hint="laptop"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tvtask3id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="21mm"
+                android:layout_marginTop="42dp"
+
+                android:layout_marginBottom="2dp"
+                android:hint="Register"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/ivpriority_icon"
+                android:layout_width="44dp"
+                android:layout_height="25dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/green" />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <RadioButton
+        android:id="@+id/done_rbtn"
+        android:layout_width="23dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvtask_time"
+        android:layout_width="48dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="11dp"
+        android:hint="Time"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/ivDeletetask"
+        android:layout_width="38dp"
+        android:layout_height="49dp"
+        android:layout_gravity="center"
+
+        android:src="@drawable/ic_delete" />
+
+
+</LinearLayout>
